@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Scrimba - Basic calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+            <form>
+                <!-- <label for="firstInput">1st value</label> -->
+                <input class="input" id="firstInput" type="number" placeholder="First number">
+                <br>
+                <!-- <label for="secondInput">2nd value</label> -->
+                <input class="input" id="secondInput" type="number" placeholder="Second number">
+            </form>
+            <div class="btns">
+                <button class="btn" id="add-btn" onclick = "add()">➕</button>
+                <button class="btn" id="subtract-btn" onclick="subtract()">➖</button>
+                <button class="btn" id="multiply-btn" onclick="multiply()">✖️</button>
+                <button class="btn" id="divide-btn" onclick="divide()">➗</button>
+            </div>
+            <H3>Result</H3>
+                <p id="result"></p>
+</div>
+    <script src="index.js"></script>
+    <!-- 🟰 -->
+</body>
+</html>
